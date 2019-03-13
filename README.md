@@ -1,5 +1,5 @@
 # Peekatek
-Peek-a-Tek! Application to find Pokemon!
+Peek-a-Tek! Application to find where to catch Pokemon!
 
 
 The basic idea of this application is to better my understanding of using JSON files along with C# programing.
