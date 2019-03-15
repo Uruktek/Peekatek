@@ -24,5 +24,15 @@ namespace PeekaTekDesktop
         {
             InitializeComponent();
         }
+
+        private void TbInputName_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                InfoFromPokeApi apiAccess = new InfoFromPokeApi();
+
+                apiAccess.deserializedData(apiAccess.Url + tbInputName.Text.ToLower());
+            }
+        }
     }
 }

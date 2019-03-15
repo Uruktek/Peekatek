@@ -8,7 +8,7 @@
         Title="Peek-a-tek!" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
         <Label x:Name="lblPokemonName" Content="Name of Pokemon:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="tbInputName" HorizontalAlignment="Left" Height="23" Margin="122,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbInputName" HorizontalAlignment="Left" Height="23" Margin="122,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" KeyDown="TbInputName_KeyDown"/>
 
     </Grid>
 </Window>
